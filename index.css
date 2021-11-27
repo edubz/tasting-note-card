@@ -1,0 +1,27 @@
+.Border { 
+  fill:none; 
+  stroke:blue; 
+  stroke-width:1 
+}
+.SamplePath { 
+  fill:none; 
+  stroke:red; 
+  stroke-width:5 
+}
+.chart {
+  border-radius: 50%;
+  overflow:hidden;
+  border: solid 1px;
+}
+
+.point:hover{
+  fill: #fff;
+  stroke: #000;
+  cursor: pointer;
+}
+
+#polygon {
+  animation-fill-mode: forwards; 
+  opacity: .85;
+}
+
